@@ -142,13 +142,13 @@ Whole Wheat ... $4.49
 
 // printMenu(query7);
 
-var printFruits =  Function(fruitCollection){
-  var grouped = _.groupBy(fruitCollection, function(fruit){return fruit,color})
-  for (key in grouped){
-    console.log(key);
-    _forEach(grouped[key],function(fruit){console.log(fruit.name, fruit.color)})
-  }
-}
+//var printFruits =  Function(fruitCollection){
+  //var grouped = _.groupBy(fruitCollection, function(fruit){return fruit,color})
+  //for (key in grouped){
+  //  console.log(key);
+  //  _forEach(grouped[key],function(fruit){console.log(fruit.name, fruit.color)})
+  //}
+//}
 /* =====================
 Stretch Goal:
 

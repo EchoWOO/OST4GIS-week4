@@ -15,7 +15,6 @@ body {
     height: 100%;
     top: 0;
 }
-
 .sidebar {
     position: absolute;
     left: 0px;
@@ -26,36 +25,63 @@ body {
     padding: 20px;
 }
 
+h1{
+   font-size: 30px;
+   font-weight: bold;
+   color: #1c3d60;
+ }
+
+h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #153d60;
+}
+
+button{
+     font-size: 13px;
+     float:right;
+ }
+
+input{
+  width: 100%;
+  padding: 5px 50px;
+  margin: 10px 0px;
+  border: 0.5px solid #164166;
+}
 .school {
     padding: 0;
     overflow: hidden;
     font-size: 24px;
 }
+.addline{
+    border: 0.5px solid #0b4077;
+    height: 0.5px;
+    width: 290px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .schoolinfo {
     padding: 0;
     overflow: hidden;
     font-size: 20px;
-    background-color:: #00008B;
+    background-color:#ccdfff;
     font-weight: bold;
-    font-family: helvetica, arial, sans-serif;
-    height:150px;
+    height:200px;
     width: 290px;
     padding-left: 10px;
     padding-top: 10px;
     margin-top: 20px;
 }
-.div{
-    background-color:#F0F8FF;
-    }
 .name{
-    font-size: 20px;
+    font-size: 18px;
+    color: #7c0606;
     }
 .type{
-    font-size: 12px;
-    color: #483D8B;
+    font-size: 16px;
+    color: #233759;
     }
 .address{
-    font-size: 16px;
+    font-size: 14px;
     }
 .zipcode{
     font-size: 14px;
